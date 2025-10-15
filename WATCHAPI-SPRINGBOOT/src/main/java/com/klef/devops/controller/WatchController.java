@@ -10,7 +10,7 @@ import com.klef.devops.model.Watch;
 import com.klef.devops.service.WatchService;
 
 @RestController
-@RequestMapping("/watchapi/")
+@RequestMapping("/watchapi")
 @CrossOrigin(origins = "*")
 public class WatchController {
 
